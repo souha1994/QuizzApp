@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".LoginScreen">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:background="@drawable/imagetop">
+       <com.airbnb.lottie.LottieAnimationView
+           android:id="@+id/animationView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:lottie_rawRes="@raw/signin"
+           app:lottie_autoPlay="true"
+           app:lottie_loop="false"/>
+   </LinearLayout>
+
+<LinearLayout
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <EditText
+
+        android:id="@+id/email"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:background="@drawable/inputdesign"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:background="@drawable/inputdesign"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/login"
+            android:background="@drawable/button"
+            android:layout_width="250dp"
+            android:text="login"
+            android:layout_height="wrap_content"/>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_marginTop="-50dp"
+            android:layout_width="50dp"
+            android:visibility="invisible"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/signup"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:text="Dont Have An Acoount ! Sign up here "/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_blue_light" />
+</LinearLayout>
+    <Button
+        android:id="@+id/google_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:background="@drawable/googlebtn"
+        android:drawableLeft="@drawable/goggle1"
+        android:layout_margin="30dp"
+        android:textSize="18sp" />
+
+</LinearLayout>

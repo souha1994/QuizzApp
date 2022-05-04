@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/aboutback.xml" value="0.183" />
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/backtomenu.xml" value="0.183" />
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/button.xml" value="0.1955" />
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/forhints.xml" value="0.1975" />
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/forrecyle.xml" value="0.1975" />
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/googlebtn.xml" value="0.1955" />
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/imagebg.xml" value="0.1975" />
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/imagetop.xml" value="0.1955" />
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/inputdesign.xml" value="0.18" />
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/mainview.xml" value="0.185" />
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/next.xml" value="0.1975" />
+        <entry key="..\:/QuizzApp/app/src/main/res/drawable/previous.xml" value="0.1975" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/aboutlayout.xml" value="0.3569230769230769" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/activity_final_score.xml" value="0.3569230769230769" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/activity_login_screen.xml" value="0.33" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/activity_play_the_quizz.xml" value="0.22" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.14722222222222223" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/appbar.xml" value="0.7883211678832117" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/finalscore.xml" value="0.3569230769230769" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/hints.xml" value="0.3625" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/niinternet.xml" value="0.3569230769230769" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/recylelayout.xml" value="0.3625" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/signup.xml" value="0.3625" />
+        <entry key="..\:/QuizzApp/app/src/main/res/layout/toolbar.xml" value="0.3625" />
+        <entry key="..\:/QuizzApp/app/src/main/res/menu/actionbarmenu.xml" value="0.3569230769230769" />
+        <entry key="..\:/QuizzApp/app/src/main/res/menu/toolbar.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
